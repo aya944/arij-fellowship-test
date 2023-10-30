@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+body {
+    font-family: 'Tajawal', sans-serif;
+    width: 400px;
+    height: auto;
+    margin: 0;
+    border-radius: 21px;
+  }
+  p{
+    font-size: 18px;
+  }
+  .body-box{
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+.check-box{
+    background-color: white;
+    width: 100%;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.header-container img{
+    width: 40px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+.header-container p{
+    font-size: 18px;
+}
+
+.settings-container{
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.errors-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+}
+.errors-container p{
+    font-weight: 500 !important;
+}
+.biased-words-number{
+    font-weight: 500 !important;
+    font-size: 18px;
+    margin-left: 20px;
+    color: white;
+    background-color: #45b4a6;
+    border-radius: 100%;
+    padding: 7px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    padding-top: 11px;
+}
+
+.report-issue{
+    display: flex;
+    justify-content: center;
+}
+.report-issue img{
+    width: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.footer-body-container{
+    background-color: #46B4A6;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 12px;
+}
+.footer-body-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.footer-body-col #editor{
+    width: 26px;
+    object-fit: contain;
+}
+.footer-body-col #home{
+    width: 38px;
+    object-fit: contain;
+}
+.footer-body-col p{
+    color: white;
+    font-size: 18px;
+}
+.hr-line{
+    background-color: #e4e4e4;
+    width: 90%;
+    height: 1px;
+    margin: auto;
+}
+.line-body-footer-col{
+    width: 1px;
+    height: 85px;
+    background-color: #84D1C8;
+}

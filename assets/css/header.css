@@ -1,0 +1,169 @@
+
+.bg1-light {
+  background-color: #2a2a2a !important;
+  border-top: 3px solid #d13536;
+  padding: 15px 10px;
+}
+.mr-left{
+  margin-left: auto!important;
+}
+
+.desck-logo{
+  text-align: center;
+  background-color: #cb3434;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  width: 135px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  padding-bottom: 7px;
+}
+.arij-logo{
+  width: 105px;
+}
+.mobil-logo{
+  display: none;
+}
+.nv-co{
+  padding: 0px
+}
+.navbar-collapse{
+  text-align: right;
+}
+.nv-co .row{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.nv-padd{
+  padding-left: 0px !important;
+}
+.left-t{
+  text-align: left;
+}
+.dropdown-menu{
+  text-align: right;
+}
+.nav-fo{
+  font-size: 17px;
+}
+.navbar-nav .dropdown-menu{
+  font-size: 17px;
+}
+.dropdown-item{
+  padding: 0.6rem 1.5rem;
+  color: #212529 !important;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white !important;
+  font-weight: 600;
+  font-size: 18px;
+  padding-left: 14px;
+}
+.dropdown-item.active, .dropdown-item:active{
+
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #a20014;
+}
+.dropdown-item{
+  border-bottom: solid 1px #dbdbdb;
+}
+::marker {
+  color: white;
+}
+#top_menu{
+  background: #ffffff;
+  width: 100%;
+  min-height: 20px;
+  padding: 6px;
+  color: #2a2a2a;
+}
+#top_menu .date{
+    margin-top:4px;
+}
+#top_menu a{
+    text-decoration:none;
+}
+#top_menu .social_icons i{
+  font-size: 16px;
+  margin: 0 3px;
+  border-radius: 20px;
+  width: 30px;
+  text-align: center;
+  height: 29px;
+  padding-top: 4px;
+  border-radius: 23px;
+  border: 2px solid;
+  transition: all .5;
+}
+#top_menu .social_icons i:hover{
+  color: gray;
+}
+#top_menu a{
+    color:#000;
+}
+#top_menu ul{
+    padding:0px;
+    margin:0px;
+}
+#top_menu ul li{
+    display:inline;
+    margin:0 6px;
+}
+#top_menu i{
+    font-size:18px;
+    margin:0 6px;
+}
+.lang-sec{
+  text-align: right;
+}
+.lang-sec a{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.lang-sec svg{
+  margin-right: 4px;
+}
+.lang-sec span{
+  font-weight: 600;
+}
+
+
+ .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 2px;
+    padding: 17px 19px;
+    display: block;
+}
+@media screen and (max-width: 1200px) {
+  .nav-link {
+    color: white !important;
+    font-weight: 600;
+    font-size: 14px !important;
+    padding-left: 14px;
+}
+}
+@media screen and (max-width: 991px) {
+	.nav_menu{
+		display:block !important;
+	}
+	#top_menu{
+		display:none;
+	}
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .desck-logo{
+    display: none;
+  }
+  .mobil-logo{
+    display: block;
+    width: 80px;
+    padding-top: 10px;
+  }
+}
